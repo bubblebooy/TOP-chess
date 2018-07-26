@@ -61,6 +61,8 @@ if File.file?(loadfile)
 else
   puts "\nFile not found Starting new game" unless loadfile.length == 0
   puts ""
+  puts "leave name blank or enter computer for an AI player"
+  puts ""
   print "White enter Name:"
   player_1 = gets.chomp
   print "Black enter Name:"
